@@ -235,26 +235,7 @@ class touristMap { //Class touristMap consists of all the methods used.
 };
 
 int main() {
-    system("color 1E"); //it changes the background color to blue.
     touristMap ourMap;
-  // Adding paths to our Map.
-  /*for(auto edge: graph){
-      ourMap.addPath(edge.first.first, edge.first.second, edge.second);
-  }*/
-//   ourMap.addPath("AppuGhar", "RedFort", 4);
-//   ourMap.addPath("AppuGhar", "ChandaniChowk", 2);
-//   ourMap.addPath("RedFort", "AppuGhar", 6);
-//   ourMap.addPath("RedFort", "HauzKhas", 6);
-//   ourMap.addPath("HauzKhas", "IndiaGate", 5);
-//   ourMap.addPath("HauzKhas", "LotusTemple", 3);
-//   ourMap.addPath("IndiaGate", "DaryaGanj", 1);
-//   ourMap.addPath("IndiaGate", "LotusTemple", 3);
-//   ourMap.addPath("DaryaGanj", "ChandaniChowk", 1);
-//   ourMap.addPath("ChandaniChowk", "JamaMasjid", 2);
-//   ourMap.addPath("JamaMasjid", "JantarMantar", 3);
-//   ourMap.addPath("JantarMantar", "LotusTemple", 6);
-//   ourMap.addPath("JamaMasjid", "LotusTemple", 3);                  
-  // Printing all the Connections.
     ifstream file("text.txt");
     if(!file.is_open()){
         cout<<"File failed to open"<<endl;
